@@ -41,6 +41,7 @@ if show_thesaurus == "yes":
         print(f"{word.title()} synonyms are:")
         for synonym in synonyms:
             print(f"- {synonym}")
+        print()  # Print a newline for better readability
 elif show_thesaurus == "no":
     print("Thank you for using the Thesaurus App! Goodbye!")
 else:
